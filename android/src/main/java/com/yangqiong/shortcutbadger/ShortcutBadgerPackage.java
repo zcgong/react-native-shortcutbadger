@@ -14,10 +14,6 @@ import java.util.List;
  * Created by yang on 16/8/17.
  */
 public class ShortcutBadgerPackage implements ReactPackage {
-    // @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
